@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Dashboard</title>
+  <link rel="stylesheet" href="Dashboard.css">
+   <!-- Add favicon -->
+   <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+  
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <h2>ShoeStore</h2>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Inventory</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Customers</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Top Bar -->
+    <div class="topbar">
+      <h1>Welcome to the Shoe Store Dashboard</h1>
+      <div class="user-info">
+        <span>Admin</span>
+        <button class="logout-btn" id="signOUt">Logout</button>
+      </div>
+    </div>
+
+    <!-- Dashboard Content -->
+    <div class="dashboard">
+      <div class="card">
+        <h3>Total Sales</h3>
+        <p>$12,500</p>
+      </div>
+      <div class="card">
+        <h3>Total Shoes Sold</h3>
+        <p>750</p>
+      </div>
+      <div class="card">
+        <h3>New Customers</h3>
+        <p>120</p>
+      </div>
+      <div class="card">
+        <h3>Stock Availability</h3>
+        <p>30 Products</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JS file -->
+  <script type="module" src="./Dashboard.js"></script>
+</body>
+</html>
