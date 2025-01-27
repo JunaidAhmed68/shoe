@@ -12,7 +12,7 @@ document.querySelector("#signOut").addEventListener("click", async () => {
     await signOut(auth); // Sign out from Firebase
     localStorage.removeItem("uid"); // Remove 'uid' from local storage
     alert("User signed out and local storage cleared.")
-    window.location.replace("../index.html"); // Redirect to login page
+    window.location.replace("../../index.html"); // Redirect to login page
   } catch (error) {
     console.error("Error signing out:", error.message);
   }
